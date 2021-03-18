@@ -1,18 +1,32 @@
 {
-    "name": "theme",
-    "displayName": "theme",
-    "description": "My custom theme",
+    "name": "harasta-theme",
+    "displayName": "harasta-theme",
+    "description": "My custom VS Code theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.54.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harastaivan/theme"
+    },
+    "galleryBanner": {
+        "color": "#333333",
+        "theme": "dark"
+    },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "harastaivan theme",
+        "harasta theme",
+        "harastaivan",
+        "harasta"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "theme",
+                "label": "harastaivan theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/theme-color-theme.json"
             }
