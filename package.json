@@ -7,6 +7,10 @@
     "engines": {
         "vscode": "^1.54.0"
     },
+    "scripts": {
+        "version": "yarn changelog && code CHANGELOG.md --wait && git add CHANGELOG.md",
+        "changelog": "gitmoji-changelog"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/harastaivan/theme"
@@ -32,5 +36,8 @@
                 "path": "./themes/theme-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "gitmoji-changelog": "^2.3.0"
     }
 }
