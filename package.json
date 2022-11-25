@@ -39,6 +39,7 @@
         ]
     },
     "devDependencies": {
-        "gitmoji-changelog": "^2.3.0"
+        "gitmoji-changelog": "^2.3.0",
+        "vsce": "^2.14.0"
     }
 }
