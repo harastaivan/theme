@@ -1,5 +1,18 @@
 # Changelog
 
+<a name="1.1.0"></a>
+
+## 1.1.0 (2022-11-25)
+
+### Added
+
+-   ➕ Add vsce [[7b176be](https://github.com/harastaivan/theme/commit/7b176be8975bca33379f3de22f0f6287a43000e6)]
+
+### Miscellaneous
+
+-   👷 Setup deploy on release action [[a5a896b](https://github.com/harastaivan/theme/commit/a5a896b82f2f5520dcd87b1cd51e4b8e3b4cdd12)]
+-   🔨 Add deploy script [[45db34e](https://github.com/harastaivan/theme/commit/45db34ef5c30d7630b2f5026e6271b28dcf507ac)]
+
 <a name="1.0.1"></a>
 
 ## 1.0.1 (2022-06-06)
